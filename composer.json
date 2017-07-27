@@ -1,0 +1,40 @@
+{
+  "name": "ex3v/myclabs-enum-param-converter",
+  "type": "symfony-bundle",
+  "keywords": [
+    "myclabs",
+    "enum",
+    "paramConverter"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maciej Szkamruk",
+      "homepage": "https://github.com/Ex3v"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ex3v\\MyCLabsEnumParamConverterBundle\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "symfony/symfony": "^2.8|^3.0",
+    "myclabs/php-enum": "^1.2",
+    "sensio/framework-extra-bundle": "^3.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "~2.7",
+    "phpunit/phpunit": "^5.4|^6.0"
+  },
+  "config": {
+    "bin-dir": "bin",
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1-dev"
+    }
+  }
+}
