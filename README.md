@@ -4,14 +4,15 @@ Ex3v\MyCLabsEnumParamConverterBundle
 
 A simple Symfony bundle to enable seamless `MyClabs\Enum` param conversion in your controllers.
 
+[![Build Status](https://travis-ci.org/Ex3v/MyCLabsEnumParamConverter.png?branch=master)](https://travis-ci.org/Ex3v/MyCLabsEnumParamConverter) 
 ### Installation and usage
 
-#####1. Install via composer:
+##### 1. Install via composer:
 ```
 composer require ex3v/myclabs-enum-param-converter
 ```
 
-#####2. Enable bundle:
+##### 2. Enable bundle:
 
 ```php
 <?php
@@ -26,7 +27,7 @@ public function registerBundles()
 }
 ```
 
-#####3. Use in your controller:
+##### 3. Use in your controller:
 
 ```php
 /**
@@ -56,3 +57,5 @@ public function fooAction(BarType $barType) : Response
 }
 
 ```
+
+### Happy coding!
